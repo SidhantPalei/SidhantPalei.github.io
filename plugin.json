@@ -1,0 +1,15 @@
+{
+  "id": "malicious-plugin",
+  "name": "Malicious Plugin",
+  "type": "app",
+  "info": {
+    "version": "1.0.0",
+    "description": "PoC Plugin"
+  },
+  "dependencies": {
+    "grafanaVersion": "8.x.x"
+  },
+  "includes": [
+    {"type": "page", "name": "XSS PoC", "path": "/xss-poc"}
+  ]
+}
